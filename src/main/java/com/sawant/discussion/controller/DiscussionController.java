@@ -35,4 +35,12 @@ public class DiscussionController {
 			return discussionId.toString();
 
 			}
+		
+		@RequestMapping(value = "/discussion/all", 
+			    method = RequestMethod.GET)
+			public String getAllDiscussions() throws Exception {
+
+			return "eeeeeeeeeeeeeeeee";
+
+			}
 }
